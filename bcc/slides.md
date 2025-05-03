@@ -198,11 +198,17 @@ Think of it this way: HTML is the blueprint, but the DOM is the actual building 
 
 ---
 transition: slide-left
-layout: image-right
-image: '/images/devtools.png'
 ---
 
 # Setting DOM breakpoints
+
+Allow you to pause JavaScript execution when the DOM changes.
+
+There are three types of DOM breakpoints you can set:
+
+- Subtree modifications: Triggers when any child of the selected element is added, removed, or modified
+- Attribute modifications: Triggers when an attribute of the selected element is added, changed, or removed
+- Node removal: Triggers when the selected element itself is removed from the DOM
 
 <!--
 Demo: Setting breakpoints when DOM elements change, are removed, or have attributes modified
@@ -211,11 +217,11 @@ Example: Debugging a dynamic UI where elements are disappearing unexpectedly
 
 ---
 transition: slide-left
-layout: image-right
-image: '/images/devtools.png'
 ---
 
 # Accessibility inspection
+
+![](./images/cutekitten2.jpeg)
 
 <!--
 Demo: Using the Accessibility pane to audit elements for accessibility compliance
@@ -838,7 +844,6 @@ layout: center
 class: text-center
 ---
 
-# Learn More
+# Thank you!
 
 [Sli.dev is the slides application](https://sli.dev) · [GitHub reference to this talk](https://github.com/brittanyellich/devtools-deep-dive) · [My website, let's be internet friends!](https://brittanyellich.com)
-
