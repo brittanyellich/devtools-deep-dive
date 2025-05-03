@@ -666,7 +666,7 @@ transition: slide-left
 - Poor: > 0.25
 
 <!--
-Largest Contentful Paint (LCP) measures how quickly the main content of a page becomes visible to users. Unlike earlier metrics that measured when the first content appeared, LCP focuses on when the most meaningful content (usually the largest image or text block) appears. This better represents when users feel a page is "loaded enough" to be useful.
+Largest Contentful Paint (LCP): focuses on when the most meaningful content is loaded, this better represents when users feel a page is "loaded enough" to be useful.
 LCP is influenced by server response time, render-blocking resources, resource load time, and client-side rendering. Optimizing LCP typically involves server improvements, reducing JavaScript and CSS blocking time, optimizing images, and implementing content delivery networks.
 
 Interaction to Next Paint (INP) is the newest Core Web Vital, replacing First Input Delay (FID) in March 2024. While FID only measured the delay before processing the first interaction, INP captures the responsiveness of all interactions throughout a user's session. This provides a much more comprehensive picture of a site's interactivity.
@@ -838,6 +838,12 @@ layout: section
 Did someone learn something today?
 Was this helpful? Too much? Too little?
 -->
+
+---
+layout: image
+image: 'images/thank_sponsors_updated.jpg'
+---
+
 
 ---
 layout: center
